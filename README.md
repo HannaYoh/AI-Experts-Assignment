@@ -31,17 +31,19 @@ Create a `requirements.txt` with pinned versions, using this format:
 Update this README to include:
 
 - how to run the tests locally,
-
-* To run test cases locally, run the following command:
-  python -m pytest -v
-
 - how to build and run tests with Docker.
 
-* To build test cases with Docker, run the following command:
-  docker build -t ai-project .
+### To run test cases locally, run the following command:
 
-* To run test cases with Docker, run the following command:
-  docker run ai-project
+python -m pytest -v
+
+### To build test cases with Docker, run the following command:
+
+docker build -t ai-project .
+
+### To run test cases with Docker, run the following command:
+
+docker run ai-project
 
 ### 4) Find + fix a bug (required)
 
